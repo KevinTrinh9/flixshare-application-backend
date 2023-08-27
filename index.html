@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Flixshare Backend API Documentation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      margin-top: 30px;
+    }
+
+    code {
+      background-color: #f1f1f1;
+      padding: 2px;
+    }
+
+    pre {
+      background-color: #f1f1f1;
+      padding: 10px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Flixshare Backend API Documentation</h1>
+
+  <h2>GET /users</h2>
+  <p>Retrieve a list of users from the database.</p>
+  <p>Example usage:</p>
+  <pre><code>GET /users</code></pre>
+
+  <h2>POST /api/signup</h2>
+  <p>Create a new user account.</p>
+  <p>Request Body:</p>
+  <pre><code>{
+  "email": "user@example.com",
+  "username": "user123",
+  "password": "password123"
+}</code></pre>
+
+  <h2>POST /api/login</h2>
+  <p>Authenticate and log in a user.</p>
+  <p>Request Body:</p>
+  <pre><code>{
+  "username": "user123",
+  "password": "password123"
+}</code></pre>
+
+  <h2>POST /logout</h2>
+  <p>Log out the current user.</p>
+
+  <h3>For more information, please visit the project's Github repository <a href="https://github.com/KevinTrinh9/capstone-project-2-backend">here</a>.</h3>
+
+</body>
+
+</html>
